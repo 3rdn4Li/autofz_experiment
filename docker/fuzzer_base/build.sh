@@ -15,6 +15,7 @@ fuzzer_list=(
     libfuzzer
     learnafl
     redqueen
+    qsym
 )
 
 USER=$(id -un)
