@@ -339,6 +339,7 @@ def plot(data_folder: str,coverage_folder:str, timeover:int):
                 ci= 95,
                 estimator=np.median,
                 #style='fuzzer',
+                marker='o',
                 dashes=False,
                 ax=axs)
 
